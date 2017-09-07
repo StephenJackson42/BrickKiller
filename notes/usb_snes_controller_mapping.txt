@@ -1,0 +1,17 @@
+usb snes button map
+
+A: 0
+B: 1
+Y: 3
+X:
+
+Start: 7
+Select: 6
+
+Up:
+Down:
+Left:
+Right:
+
+R: 5
+L: 4
