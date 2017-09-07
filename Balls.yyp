@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "6f7f997f-d490-48e2-a10e-f1f2fde62555",
+            "Value": {
+                "id": "4f0824d6-653a-45f8-ac5e-1b04804267f1",
+                "resourcePath": "notes\\note1.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "75ee0e5d-3da1-4b64-a3b8-3eeee1c8bdf5",
             "Value": {
                 "id": "f40b729d-14fb-42b5-925b-626b04025c5f",
