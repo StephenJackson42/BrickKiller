@@ -4,4 +4,4 @@
 
 
 
-draw_text(x,y,get_timer()/1000)
+draw_text(x,y,obj_player.my_timer)

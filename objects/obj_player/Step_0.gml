@@ -6,7 +6,7 @@ player_angle_straight_down = 180
 player_angle_right = 270
 player_angle_left = 90
 
-
+my_timer++
 if(keyboard_check(vk_right)){
 	x=x+5
 	image_angle = player_angle_right
