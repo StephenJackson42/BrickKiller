@@ -41,33 +41,44 @@ if(keyboard_check(vk_down)&&keyboard_check(vk_left)){
 }	
 
 
-	
-direction=image_angle;	
+
 if(gamepad_is_connected(4)){
 
-	gamepad_set_axis_deadzone(4, 0.5);  
-
+	gamepad_set_axis_deadzone(4, 0.5);
 	var h_move = gamepad_axis_value(4, gp_axislh);
 	var v_move = gamepad_axis_value(4, gp_axislv);
-
-	old_x=x 
-	old_y=y
-
-
-
-
-	if ((h_move == 1) || (v_move != 1) || (h_move == -1) || (v_move != -1))
+	
+	//if ((h_move == 1) || (v_move != 1) || (h_move == -1) || (v_move != -1))
+	//{	
+	//	x += h_move * 7;
+	//	y += v_move * 7;
+		
+		
+	//}
+	
+	if(h_move == 1)
 	{
-	
-
-	
-		x += h_move * 7;
-		y += v_move * 7;
-		image_angle = point_direction(old_x,old_y,x,y) - 90
-	
+		x+=h_move*5
+		image_angle=-90
 	}
-	else{image_angle=0}
-
+	if(h_move == -1)
+	{
+		x+=h_move*5
+		image_angle=90
+	}
+	if(v_move == 1)
+	{
+		y+=v_move*5
+		image_angle=180
+	}
+	if(v_move == -1)
+	{
+		y+=v_move*5
+		image_angle=0
+	}
+	
+	
+	
 }
 
 move_wrap(true,true,10)
