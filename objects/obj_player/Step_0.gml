@@ -100,6 +100,8 @@ if(keyboard_check_released(vk_space)||
 }
 
 
+
+
 if(gamepad_button_check(4,7)){
 
 	room_goto(room)	
