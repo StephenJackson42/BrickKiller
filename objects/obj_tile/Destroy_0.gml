@@ -1,3 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-//instance_create_layer(x,y-64,"Instances",obj_ball);
+audio_play_sound(snd_player,10,false)
