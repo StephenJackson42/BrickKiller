@@ -4,4 +4,6 @@
     "option_game_speed": 120,
     "option_author": "Stephen Jackson",
     "option_sci_usesci": true
+}←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
+    "autocrop": false
 }
