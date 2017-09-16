@@ -9,4 +9,4 @@ playlist[5] = snd_90s
 
 audio_stop_all()
 randomize()
-audio_play_sound(playlist[irandom(4)],1,false)
+audio_play_sound(playlist[irandom(5)],1,false)

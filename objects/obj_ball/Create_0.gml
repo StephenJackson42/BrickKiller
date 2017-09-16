@@ -1,3 +1,8 @@
+upixel_h = shader_get_uniform(sh,"pixel_h");
+upixel_w = shader_get_uniform(sh,"pixel_w");
+texel_w = texture_get_texel_width(sprite_get_texture(sprite_index,0));
+texel_h = texture_get_texel_height(sprite_get_texture(sprite_index,0));
+
 move_bounce_solid(true);
 
 image_xscale = 1;
